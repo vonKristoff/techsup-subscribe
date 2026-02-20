@@ -45,7 +45,7 @@
 							id="email"
 							type="email"
 							name="email"
-							placeholder="your@email.pls"
+							placeholder="your@email.please"
 							class="min-w-0 grow px-4 py-1.5 text-black placeholder:text-gray-400 focus:outline-none sm:text-sm/6 md:text-2xl"
 						/>
 					</div>
