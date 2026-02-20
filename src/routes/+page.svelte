@@ -15,7 +15,7 @@
 		inset: 0;
 		width: 55%;
 		height: 100%;
-		background-image: url('techsup.jpg');
+		background-image: url('/techsup.jpg');
 		background-repeat: repeat;
 		background-position: center;
 		background-size: 8vw;
