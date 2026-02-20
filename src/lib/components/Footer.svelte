@@ -2,7 +2,10 @@
 	class="grid w-full grid-cols-1 gap-y-16 px-8 py-16 text-2xl text-primary md:grid-cols-3 md:px-16"
 >
 	<aside class="flex flex-col justify-between gap-4 text-sm">
-		<a class="link w-fit" href="https://unsubscribe.techsup.uk">Unsubscribe</a>
+		<div class="flex flex-col">
+			<a class="link w-fit" href="https://privacy.techsup.uk">Privacy policy</a>
+			<a class="link w-fit" href="https://unsubscribe.techsup.uk">Unsubscribe</a>
+		</div>
 		<span class="text-wash-300">Tech Support! Interactive Ltd.</span>
 	</aside>
 
