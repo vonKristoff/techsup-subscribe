@@ -1,0 +1,11 @@
+:root {
+	--font-amsterdam: 'New Amsterdam', sans-serif;
+	--font-roboto: 'Roboto', serif;
+	--font-bangers: 'Bangers';
+}
+
+@theme {
+	--font-primary: var(--font-amsterdam);
+	--font-secondary: var(--font-roboto);
+	--font-tertiary: var(--font-bangers);
+}
