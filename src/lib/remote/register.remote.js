@@ -18,7 +18,7 @@ export const subscribe = form(
 
 		await new Promise((resolve) => setTimeout(resolve, 1000));
 		try {
-			const response = await fetch(API_ENDPOINT, {
+			const response = await fetch(`${API_ENDPOINT}?user_field_names=true`, {
 				method: 'POST',
 				headers: {
 					Authorization: `Token ${API_TOKEN}`,
