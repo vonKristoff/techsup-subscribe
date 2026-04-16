@@ -12,7 +12,8 @@
 		class="form-container subscribe-card flex flex-col items-center rounded-2xl border-2 bg-neutral-100 p-6 md:p-12"
 	>
 		<h2 class="mb-8 text-3xl md:text-6xl">Connect to hotline</h2>
-		<p class="center">Did you like what you saw?</p>
+		<p class="center">Put yourself in the que for reservation!</p>
+		<p class="center">Please support us by signing up x</p>
 		<form
 			id="subscribe"
 			{...subscribe.enhance(async ({ form, data, submit }) => {
