@@ -8,8 +8,11 @@
 </script>
 
 <article class="relative grid place-content-center">
-	<div class="form-container subscribe-card rounded-2xl border-2 bg-neutral-100 p-6 md:p-12">
+	<div
+		class="form-container subscribe-card flex flex-col items-center rounded-2xl border-2 bg-neutral-100 p-6 md:p-12"
+	>
 		<h2 class="mb-8 text-3xl md:text-6xl">Connect to hotline</h2>
+		<p class="center">Did you like what you saw?</p>
 		<form
 			id="subscribe"
 			{...subscribe.enhance(async ({ form, data, submit }) => {
@@ -60,7 +63,7 @@
 				{#if !message}
 					<div transition:fade class="hover-patch relative">
 						<button class="relative z-10 rounded-lg border-2 bg-wash-100 px-8 py-4"
-							>Sign me up!</button
+							>I WANT ONE!</button
 						>
 						<div
 							class="skeleton absolute inset-0 h-full w-full rounded-lg border-2 border-t-0 bg-wash-200"
