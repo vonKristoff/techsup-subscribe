@@ -3,6 +3,7 @@
 >
 	<aside class="flex flex-col justify-between gap-4 text-sm">
 		<div class="flex flex-col">
+			<a class="link w-fit" href="https://feedback.techsup.uk">Feedback</a>
 			<a class="link w-fit" href="https://privacy.techsup.uk">Privacy policy</a>
 			<a class="link w-fit" href="https://unsubscribe.techsup.uk">Unsubscribe</a>
 		</div>
